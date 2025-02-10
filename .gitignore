@@ -1,0 +1,17 @@
+# Exclude test run results and reports
+Header check */
+
+# Exclude URLs folder and JSON files
+urls/
+*.json
+
+# Node modules and environment files
+node_modules/
+.env
+
+# Logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
